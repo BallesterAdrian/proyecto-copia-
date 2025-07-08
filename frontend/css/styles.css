@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #f1d1db, #d6ecd6);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #f0f0f5;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #ccc, -5px -5px 15px #fff;
+  width: 300px;
+  text-align: center;
+}
+
+.form-container input,
+.form-container select {
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 3px 3px 8px #ccc, inset -3px -3px 8px #fff;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.button-group button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  background: linear-gradient(to right, #aef, #d6a6f5);
+  cursor: pointer;
+}
+
+.active {
+  outline: 2px solid #444;
+}
+
+#register-message {
+  margin-top: 10px;
+  color: green;
+}
